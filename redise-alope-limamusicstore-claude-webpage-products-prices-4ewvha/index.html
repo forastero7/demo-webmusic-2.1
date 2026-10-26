@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lima Music Store · Instrumentos musicales, equipos de sonido y accesorios</title>
+  <meta name="description" content="Lima Music Store — Tu pasión por la música comienza aquí. Guitarras, teclados, baterías, micrófonos, amplificadores y accesorios musicales con asesoría personalizada por WhatsApp.">
+  <meta name="theme-color" content="#0B0B0C">
+  <meta name="color-scheme" content="dark light">
+  <link rel="canonical" href="https://sigueelritmo-demo-2026.netlify.app/">
+
+  <!-- Open Graph / redes -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Lima Music Store">
+  <meta property="og:title" content="Lima Music Store — Tu pasión por la música comienza aquí">
+  <meta property="og:description" content="Instrumentos musicales, equipos de sonido y accesorios musicales. Explora el catálogo y consulta por WhatsApp.">
+  <meta property="og:url" content="https://sigueelritmo-demo-2026.netlify.app/">
+  <meta property="og:image" content="https://sigueelritmo-demo-2026.netlify.app/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Lima Music Store — Tu pasión por la música comienza aquí">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicStore",
+    "name": "Lima Music Store",
+    "slogan": "Tu pasión por la música comienza aquí",
+    "description": "Tienda de instrumentos musicales, equipos de sonido y accesorios musicales con asesoría por WhatsApp.",
+    "url": "https://sigueelritmo-demo-2026.netlify.app/",
+    "telephone": "+51 902 826 428",
+    "currenciesAccepted": "PEN",
+    "areaServed": "PE"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#catalogo" data-i18n="nav.catalog">Catálogo</a>
+
+  <p class="demo-bar" role="note" data-i18n="demo.bar">Tienda demo: productos y precios son referenciales.</p>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Lima Music Store, inicio">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="brand-text">Lima <b>Music</b> Store</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Principal">
+        <a href="#catalogo" data-i18n="nav.catalog">Catálogo</a>
+        <a href="#categorias" data-i18n="nav.categories">Categorías</a>
+        <a href="#beneficios" data-i18n="nav.benefits">Beneficios</a>
+        <a href="#como-comprar" data-i18n="nav.how">Cómo comprar</a>
+        <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn lang-btn" id="lang-btn" type="button" data-i18n-aria="lang.aria" aria-label="Switch to English">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+          <span data-i18n="lang.switch">EN</span>
+        </button>
+        <button class="icon-btn list-btn" id="list-btn" type="button" aria-haspopup="dialog">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="list-label" data-i18n="nav.list">Mi lista</span>
+          <span class="badge" id="list-count">0</span>
+        </button>
+        <a class="btn btn-acento btn-sm head-wa" href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#wa-glyph"/></svg>
+          <span data-i18n="nav.wa">WhatsApp</span>
+        </a>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="main-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <span class="sr-only" data-i18n="nav.menu">Menú</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="hero.kicker">Instrumentos musicales · Equipos de sonido · Accesorios</p>
+          <h1 id="hero-title" data-i18n="hero.title">Tu pasión por la música comienza aquí.</h1>
+          <p class="hero-sub" data-i18n="hero.sub">En Lima Music Store te ayudamos a elegir el instrumento correcto.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-acento btn-lg" href="#catalogo" data-i18n="hero.cta1">Explorar instrumentos</a>
+            <a class="btn btn-ghost btn-lg" href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#wa-glyph"/></svg>
+              <span data-i18n="hero.cta2">Consultar por WhatsApp</span>
+            </a>
+          </div>
+          <form class="hero-search" id="hero-search" role="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            <input type="search" id="hero-q" data-i18n-ph="hero.search" placeholder="Busca guitarra, teclado, micrófono…" aria-label="Buscar productos">
+            <button type="submit" data-i18n="hero.searchBtn">Buscar</button>
+          </form>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="hero-art" viewBox="0 0 520 560" role="presentation">
+            <defs>
+              <radialGradient id="hg-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#C6F432" stop-opacity=".55"/>
+                <stop offset=".55" stop-color="#C6F432" stop-opacity=".08"/>
+                <stop offset="1" stop-color="#C6F432" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="hg-body" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#2A2A2E"/>
+                <stop offset="1" stop-color="#0E0E10"/>
+              </linearGradient>
+              <linearGradient id="hg-neck" x1="0" x2="1">
+                <stop offset="0" stop-color="#3A2A1C"/>
+                <stop offset="1" stop-color="#22180F"/>
+              </linearGradient>
+            </defs>
+            <circle cx="260" cy="290" r="250" fill="url(#hg-glow)"/>
+            <g fill="none" stroke="#F5F5F2" stroke-opacity=".12">
+              <circle cx="260" cy="290" r="150"/><circle cx="260" cy="290" r="195"/><circle cx="260" cy="290" r="240"/>
+            </g>
+            <!-- Ecualizador -->
+            <g fill="#C6F432">
+              <rect class="eq" x="40" y="430" width="10" height="70" rx="5"/>
+              <rect class="eq" x="58" y="400" width="10" height="100" rx="5"/>
+              <rect class="eq" x="76" y="445" width="10" height="55" rx="5"/>
+              <rect class="eq" x="94" y="415" width="10" height="85" rx="5"/>
+            </g>
+            <!-- Guitarra eléctrica -->
+            <g transform="rotate(28 260 290)">
+              <path d="M247 36c-2-18 6-30 20-30s20 10 16 26l-6 50h-26z" fill="#121214" stroke="#C6F432" stroke-width="2"/>
+              <g fill="#C6F432"><circle cx="252" cy="28" r="3"/><circle cx="252" cy="46" r="3"/><circle cx="252" cy="64" r="3"/><circle cx="280" cy="28" r="3"/><circle cx="280" cy="46" r="3"/><circle cx="280" cy="64" r="3"/></g>
+              <rect x="250" y="80" width="28" height="250" rx="4" fill="url(#hg-neck)"/>
+              <g stroke="#9C9CA3" stroke-width="2">
+                <path d="M250 104h28M250 128h28M250 150h28M250 171h28M250 191h28M250 210h28M250 228h28M250 245h28M250 261h28M250 276h28M250 290h28M250 303h28"/>
+              </g>
+              <g fill="#F5F5F2" fill-opacity=".7"><circle cx="264" cy="139" r="2.5"/><circle cx="264" cy="181" r="2.5"/><circle cx="264" cy="219" r="2.5"/><circle cx="264" cy="253" r="2.5"/></g>
+              <path d="M214 300c-36-10-70 12-66 54 3 30 26 40 22 66-4 28-30 40-20 72 10 34 60 52 114 46 56-6 96-30 92-72-3-30-26-40-18-66 8-24 30-36 22-66-8-34-40-42-58-26-16 14-14 34-34 34-22 0-26-32-54-42z" fill="url(#hg-body)" stroke="#C6F432" stroke-width="2.5"/>
+              <path d="M236 330c-24 0-40 16-38 40 2 20 18 26 16 44-2 20-16 32-4 50 14 20 64 22 92 8 20-10 22-30 10-46-10-14-6-30 2-44 8-16 0-36-20-40-20-4-34 4-58-12z" fill="#1C1C1F"/>
+              <g fill="#0B0B0C" stroke="#C6F432" stroke-opacity=".7"><rect x="244" y="360" width="40" height="12" rx="4"/><rect x="244" y="398" width="40" height="12" rx="4"/><rect x="244" y="436" width="40" height="12" rx="4"/></g>
+              <rect x="246" y="478" width="36" height="8" rx="3" fill="#9C9CA3"/>
+              <g fill="#C6F432"><circle cx="318" cy="470" r="7"/><circle cx="330" cy="496" r="7"/><circle cx="306" cy="512" r="7"/></g>
+              <g stroke="#E8E8E3" stroke-width="1" stroke-opacity=".85">
+                <path d="M256 74V482M259.5 74V482M263 74V482M266.5 74V482M270 74V482M273.5 74V482"/>
+              </g>
+            </g>
+            <!-- Notas -->
+            <g fill="#F5F5F2">
+              <path d="M430 110v46a10 10 0 1 1-5-8.7V118l-26 6v40a10 10 0 1 1-5-8.7V114z" fill-opacity=".85"/>
+              <path d="M96 150v34a8 8 0 1 1-4-7V150h18v6z" fill="#C6F432"/>
+            </g>
+          </svg>
+          <span class="hero-chip chip-1"><i class="dot"></i><span data-i18n="hero.chip1">Asesoría personalizada</span></span>
+          <span class="hero-chip chip-2"><svg viewBox="0 0 32 32"><use href="#wa-glyph"/></svg><span data-i18n="hero.chip2">Respuesta por WhatsApp</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits" id="beneficios" aria-labelledby="ben-title">
+      <div class="wrap">
+        <h2 class="sr-only" id="ben-title" data-i18n="ben.title">¿Por qué Lima Music Store?</h2>
+        <ul class="ben-grid">
+          <li class="ben reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4.5-6.5 8-6.5s7 2 8 6.5"/></svg>
+            <div><h3 data-i18n="ben1.t">Asesoría personalizada</h3><p data-i18n="ben1.d"></p></div>
+          </li>
+          <li class="ben reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 10h6M9 13h4"/></svg>
+            <div><h3 data-i18n="ben2.t">Consultas rápidas por WhatsApp</h3><p data-i18n="ben2.d"></p></div>
+          </li>
+          <li class="ben reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            <div><h3 data-i18n="ben3.t">Catálogo organizado</h3><p data-i18n="ben3.d"></p></div>
+          </li>
+          <li class="ben reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            <div><h3 data-i18n="ben4.t">Especialistas en música</h3><p data-i18n="ben4.d"></p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Categorías -->
+    <section class="section section-light" id="categorias" aria-labelledby="cats-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="cats-title" data-i18n="cats.title">Explora por categoría</h2>
+          <p class="section-sub" data-i18n="cats.sub">Todo para tocar, grabar y sonar mejor.</p>
+        </div>
+        <div class="cat-grid" id="cat-grid"></div>
+      </div>
+    </section>
+
+    <!-- Más consultados -->
+    <section class="section section-light pt-0" aria-labelledby="pop-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="pop-title" data-i18n="popular.title">Los más consultados</h2>
+          <p class="section-sub" data-i18n="popular.sub"></p>
+        </div>
+        <div class="scroller" id="popular"></div>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="section section-light section-catalog" id="catalogo" aria-labelledby="cat-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="cat-title" data-i18n="cat.title">Catálogo</h2>
+          <p class="section-sub" data-i18n="cat.sub">Precios demostrativos en soles (S/), IGV incluido.</p>
+        </div>
+
+        <div class="cat-chips" id="cat-chips" role="group" aria-label="Categorías"></div>
+
+        <div class="filters" id="filters">
+          <label class="f f-search"><span data-i18n="f.search">Buscar</span>
+            <input type="search" id="f-q" data-i18n-ph="f.searchPh" placeholder="Nombre o tipo de producto">
+          </label>
+          <label class="f"><span data-i18n="f.cat">Categoría</span>
+            <select id="f-cat"></select>
+          </label>
+          <label class="f"><span data-i18n="f.budget">Presupuesto</span>
+            <select id="f-bud"></select>
+          </label>
+          <label class="f"><span data-i18n="f.use">Uso</span>
+            <select id="f-use"></select>
+          </label>
+          <label class="f"><span data-i18n="f.sort">Ordenar</span>
+            <select id="f-sort"></select>
+          </label>
+        </div>
+        <div class="filters-meta">
+          <span id="f-count" aria-live="polite"></span>
+          <button class="link-btn" id="f-clear" type="button" data-i18n="f.clear">Limpiar filtros</button>
+        </div>
+
+        <div class="grid" id="grid"></div>
+        <p class="empty" id="grid-empty" hidden data-i18n="f.empty">No hay productos con esos filtros.</p>
+      </div>
+    </section>
+
+    <!-- Recomendador -->
+    <section class="section section-dark" id="recomendador" aria-labelledby="rec-title">
+      <div class="wrap rec">
+        <div class="rec-head">
+          <h2 id="rec-title" data-i18n="rec.title">¿No sabes cuál elegir?</h2>
+          <p data-i18n="rec.sub">Responde 3 preguntas y te sugerimos opciones.</p>
+        </div>
+        <form class="rec-form" id="rec-form">
+          <fieldset>
+            <legend><span class="num">1</span> <span data-i18n="rec.q1">¿Para quién es?</span></legend>
+            <div class="chips" data-name="who"></div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="num">2</span> <span data-i18n="rec.q2">¿Qué nivel tiene?</span></legend>
+            <div class="chips" data-name="lvl"></div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="num">3</span> <span data-i18n="rec.q3">¿Cuánto quieres invertir?</span></legend>
+            <div class="chips" data-name="bud"></div>
+          </fieldset>
+          <div class="rec-actions">
+            <button class="btn btn-acento" type="submit" data-i18n="rec.go">Ver sugerencias</button>
+            <button class="btn btn-ghost" type="reset" data-i18n="rec.reset">Empezar de nuevo</button>
+          </div>
+        </form>
+        <div class="rec-result" id="rec-result" hidden aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Cómo comprar -->
+    <section class="section section-light" id="como-comprar" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="how-title" data-i18n="how.title">Cómo comprar</h2>
+          <p class="section-sub" data-i18n="how.sub"></p>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><h3 data-i18n="step1.t"></h3><p data-i18n="step1"></p></li>
+          <li class="reveal"><h3 data-i18n="step2.t"></h3><p data-i18n="step2"></p></li>
+          <li class="reveal"><h3 data-i18n="step3.t"></h3><p data-i18n="step3"></p></li>
+          <li class="reveal"><h3 data-i18n="step4.t"></h3><p data-i18n="step4"></p></li>
+        </ol>
+        <p class="note" data-i18n="how.note"></p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section section-dark contact-band" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap contact">
+        <div>
+          <h2 id="contact-title" data-i18n="contact.title">¿Listo para empezar a tocar?</h2>
+          <p class="contact-sub" data-i18n="contact.sub"></p>
+          <a class="btn btn-acento btn-lg" href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#wa-glyph"/></svg>
+            <span>+51 902 826 428</span>
+          </a>
+        </div>
+        <dl class="contact-list">
+          <div><dt data-i18n="contact.wa">WhatsApp</dt><dd><a href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener">+51 902 826 428</a></dd></div>
+          <div><dt data-i18n="contact.hours">Horario</dt><dd data-i18n="contact.hoursV">Por confirmar</dd></div>
+          <div><dt data-i18n="contact.book">Libro de Reclamaciones</dt><dd><button class="link-btn light" type="button" data-open="book-dialog" data-i18n="contact.bookBtn">Abrir</button></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="brand-text">Lima <b>Music</b> Store</span>
+        </a>
+        <p data-i18n="footer.tagline">Tu pasión por la música comienza aquí.</p>
+      </div>
+      <nav aria-labelledby="fn-title">
+        <h2 class="footer-h" id="fn-title" data-i18n="footer.nav">Navegación</h2>
+        <ul>
+          <li><a href="#catalogo" data-i18n="nav.catalog">Catálogo</a></li>
+          <li><a href="#categorias" data-i18n="nav.categories">Categorías</a></li>
+          <li><a href="#beneficios" data-i18n="nav.benefits">Beneficios</a></li>
+          <li><a href="#como-comprar" data-i18n="nav.how">Cómo comprar</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h" data-i18n="footer.contact">Contacto</h2>
+        <ul>
+          <li><a href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener">WhatsApp: +51 902 826 428</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-h" data-i18n="footer.legal">Información</h2>
+        <ul>
+          <li><button class="book-link" type="button" data-open="book-dialog">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h12a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3z"/><path d="M8 9h7M8 13h7"/></svg>
+            <span data-i18n="footer.book">Libro de Reclamaciones</span>
+          </button></li>
+          <li><button class="link-btn light" type="button" data-open="privacy-dialog" data-i18n="footer.privacy">Aviso de privacidad</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p data-i18n="footer.prices">Precios demostrativos en soles (S/), IGV incluido, sujetos a confirmación.</p>
+      <p class="credit">Demo web diseñado y desarrollado por <strong>Rediseñalo.pe</strong></p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a class="wa-float" href="https://wa.me/51902826428?text=%C2%A1Hola%2C%20Lima%20Music%20Store%21%20Me%20interesa%20un%20instrumento%20musical%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." data-wa="general" target="_blank" rel="noopener" data-i18n-aria="wa.float" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#wa-glyph"/></svg>
+  </a>
+
+  <!-- Ficha de producto -->
+  <dialog class="dlg dlg-product" id="product-dialog" aria-labelledby="pd-title">
+    <button class="dlg-close" type="button" data-close data-i18n-aria="close" aria-label="Cerrar">×</button>
+    <div id="pd-body"></div>
+  </dialog>
+
+  <!-- Lista de consulta (carrito) -->
+  <dialog class="dlg dlg-drawer" id="list-dialog" aria-labelledby="list-title">
+    <button class="dlg-close" type="button" data-close data-i18n-aria="close" aria-label="Cerrar">×</button>
+    <h2 id="list-title" data-i18n="list.title">Mi lista de consulta</h2>
+    <p class="empty" id="list-empty" data-i18n="list.empty"></p>
+    <ul class="list-items" id="list-items"></ul>
+    <div id="list-form-wrap">
+      <div class="list-total"><span data-i18n="list.subtotal">Total referencial</span> <strong id="list-total">S/ 0</strong></div>
+      <p class="small" data-i18n="list.subNote"></p>
+      <form id="list-form" class="list-form">
+        <fieldset>
+          <legend data-i18n="list.where">¿Dónde te encuentras?</legend>
+          <div class="seg">
+            <label><input type="radio" name="zone" value="lima" checked> <span data-i18n="list.zone.lima"></span></label>
+            <label><input type="radio" name="zone" value="prov"> <span data-i18n="list.zone.prov"></span></label>
+          </div>
+          <label class="f" id="district-wrap"><span data-i18n="list.district">Distrito</span>
+            <select id="district"></select>
+          </label>
+          <label class="f" id="city-wrap" hidden><span data-i18n="list.city">Ciudad</span>
+            <input type="text" id="city" list="cities" data-i18n-ph="list.cityPh" autocomplete="address-level2">
+          </label>
+          <datalist id="cities">
+            <option>Arequipa</option><option>Trujillo</option><option>Chiclayo</option><option>Piura</option><option>Cusco</option>
+            <option>Huancayo</option><option>Iquitos</option><option>Tacna</option><option>Puno</option><option>Juliaca</option>
+            <option>Ica</option><option>Cajamarca</option><option>Ayacucho</option><option>Chimbote</option><option>Huánuco</option>
+            <option>Pucallpa</option><option>Tarapoto</option><option>Huaraz</option><option>Tumbes</option><option>Moquegua</option>
+          </datalist>
+        </fieldset>
+        <fieldset>
+          <legend data-i18n="list.doc">Comprobante que necesitas</legend>
+          <div class="seg">
+            <label><input type="radio" name="doc" value="boleta" checked> <span data-i18n="list.boleta"></span></label>
+            <label><input type="radio" name="doc" value="factura"> <span data-i18n="list.factura"></span></label>
+          </div>
+        </fieldset>
+        <label class="f"><span data-i18n="list.name">Tu nombre (opcional)</span>
+          <input type="text" id="cust-name" autocomplete="given-name">
+        </label>
+        <p class="form-error" id="list-error" hidden data-i18n="list.needLoc"></p>
+        <button class="btn btn-wa" type="submit">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#wa-glyph"/></svg>
+          <span data-i18n="list.send">Enviar pedido por WhatsApp</span>
+        </button>
+        <p class="small center" data-i18n="list.hint"></p>
+        <button class="link-btn center-block" type="button" id="list-clear" data-i18n="list.clear">Vaciar lista</button>
+      </form>
+    </div>
+  </dialog>
+
+  <dialog class="dlg" id="book-dialog" aria-labelledby="book-title">
+    <button class="dlg-close" type="button" data-close data-i18n-aria="close" aria-label="Cerrar">×</button>
+    <h2 id="book-title" data-i18n="book.title">Libro de Reclamaciones virtual</h2>
+    <p data-i18n="book.d"></p>
+    <button class="btn btn-acento" type="button" data-close data-i18n="book.close">Cerrar</button>
+  </dialog>
+
+  <dialog class="dlg" id="privacy-dialog" aria-labelledby="privacy-title">
+    <button class="dlg-close" type="button" data-close data-i18n-aria="close" aria-label="Cerrar">×</button>
+    <h2 id="privacy-title" data-i18n="footer.privacy">Aviso de privacidad</h2>
+    <p data-i18n="privacy.d"></p>
+    <button class="btn btn-acento" type="button" data-close data-i18n="book.close">Cerrar</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="wa-glyph" viewBox="0 0 32 32"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.8 1.2 3.2 1.4 3.5 2.4 3.6 5.8 5c2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.3z"/></symbol>
+  </svg>
+
+  <script src="js/i18n.js" defer></script>
+  <script src="js/icons.js" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
