@@ -1,4 +1,4 @@
-# Registro de imágenes · Lima Music Store
+# Registro de imágenes · Casa Musical Jhonatan BM
 
 **Estado: carga finalizada** (el cliente confirmó que terminó de enviar las imágenes). 41 de 42 productos con foto real; las baquetas mantienen la ilustración.
 
