@@ -2,10 +2,10 @@
   "use strict";
   document.documentElement.classList.remove("no-js");
 
-  /* Número comercial de WhatsApp de Lima Music Store (formato internacional, sin "+"). */
-  var WHATSAPP = "51902826428";
-  var LIST_KEY = "lms-lista";
-  var LANG_KEY = "lms-lang";
+  /* Número comercial de WhatsApp de Casa Musical Jhonatan BM (formato internacional, sin "+"). */
+  var WHATSAPP = "51975379354";
+  var LIST_KEY = "cmj-lista";
+  var LANG_KEY = "cmj-lang";
 
   var USES = ["principiante", "estudiante", "banda", "iglesia", "vivo", "estudio", "eventos"];
   var LEVELS = ["inicial", "intermedio", "pro"];

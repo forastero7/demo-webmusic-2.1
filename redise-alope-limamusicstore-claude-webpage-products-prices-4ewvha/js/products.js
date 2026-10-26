@@ -1,5 +1,5 @@
 /*
- * Catálogo DEMOSTRATIVO de Lima Music Store.
+ * Catálogo DEMOSTRATIVO de Casa Musical Jhonatan BM.
  * Productos, precios (S/, IGV incluido) y contenidos son referenciales para la demo:
  * reemplazarlos por el inventario real de la tienda antes de publicar.
  * Las marcas quedan "por confirmar" a propósito: no se atribuyen marcas ni stock.

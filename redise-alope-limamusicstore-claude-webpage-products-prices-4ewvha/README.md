@@ -1,6 +1,6 @@
-# Lima Music Store · Tienda demo
+# Casa Musical Jhonatan BM · Tienda demo
 
-**Lima Music Store — Tu pasión por la música comienza aquí.**
+**Casa Musical Jhonatan BM — Tu pasión por la música comienza aquí.**
 
 Tienda digital DEMO de instrumentos musicales, equipos de sonido y accesorios musicales, orientada a convertir visitas en consultas por WhatsApp. Diseño y desarrollo: **Rediseñalo.pe**.
 
@@ -31,9 +31,9 @@ img/                Favicon e imagen para compartir (og-image.png)
 
 ## WhatsApp
 
-- Número: **+51 902 826 428** → `https://wa.me/51902826428`
+- Número: **+51 975 379 354** → `https://wa.me/51975379354`
 - Constante `WHATSAPP` en `js/app.js`; los enlaces estáticos de `index.html` traen el mensaje predeterminado ya codificado.
-- Mensaje predeterminado: "¡Hola, Lima Music Store! Me interesa un instrumento musical y quisiera recibir más información."
+- Mensaje predeterminado: "¡Hola, Casa Musical Jhonatan BM! Me interesa un instrumento musical y quisiera recibir más información."
 
 ## Ver en local
 
