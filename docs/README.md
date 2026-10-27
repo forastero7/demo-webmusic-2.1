@@ -44,12 +44,11 @@ python3 -m http.server 8000
 
 (También funciona abriendo `index.html` directamente en el navegador.)
 
-## Desplegar en Netlify
+## Publicar en GitHub Pages
 
-El proyecto no necesita configuración de build.
+El sitio vive en la carpeta `docs/` y se publica con GitHub Pages desde la rama `main`, carpeta `/docs`. No necesita build: cada commit en `main` actualiza la web en 1 o 2 minutos.
 
-- **Despliegue desde Git (configuración actual):** el sitio `sigueelritmo-demo-2026` publica automáticamente la rama `claude/webpage-products-prices-4ewvha`. Al subir los cambios a esa rama, Netlify los publica en producción. *Build command:* vacío · *Publish directory:* `.` (raíz).
-- **Despliegue manual:** en Netlify → *Deploys* → arrastrar la carpeta del proyecto, o con la CLI: `netlify deploy --dir .` (vista previa) y `netlify deploy --dir . --prod` (producción).
+URL: https://forastero7.github.io/demo-webmusic-2.1/
 
 ## Antes de publicar como tienda real
 
