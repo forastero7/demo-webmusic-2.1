@@ -446,3 +446,26 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ===== Mejora de conversión (oct 2026) ===== */
+.trust { list-style: none; padding: 0; margin: 22px 0 0; display: flex; flex-wrap: wrap; gap: 8px 18px; max-width: 560px; }
+.trust li { display: inline-flex; align-items: center; gap: 8px; font-size: .86rem; color: var(--muted); }
+.trust li::before { content: ""; width: 16px; height: 16px; flex: none; border-radius: 50%; background: rgba(217, 119, 6, .16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 8.2l2.2 2.2 4.8-4.8' fill='none' stroke='%23D97706' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 16px no-repeat; }
+.ben-title { font-size: clamp(1.3rem, 2.4vw, 1.7rem); margin-bottom: 28px; }
+.faq-wrap { max-width: 860px; }
+.faq { display: grid; gap: 10px; }
+.faq details { background: var(--card); border: 1px solid var(--light-line); border-radius: var(--radio); padding: 0 20px; box-shadow: var(--sombra); transition: border-color .2s; }
+.faq details[open] { border-color: var(--acento); }
+.faq summary { cursor: pointer; list-style: none; padding: 18px 32px 18px 0; position: relative; font-family: var(--f-titulo); font-weight: 700; color: var(--ink); font-size: 1.02rem; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.4rem; font-weight: 500; color: var(--acento); transition: transform .2s var(--ease); }
+.faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
+.faq summary:focus-visible { outline: 2px solid var(--acento); outline-offset: 4px; border-radius: 6px; }
+.faq details p { margin: 0 0 18px; color: var(--light-muted); line-height: 1.6; }
+.contact-num { margin: 12px 0 0; color: var(--muted); font-size: .92rem; letter-spacing: .02em; }
+@media (max-width: 640px) {
+  .trust { gap: 8px 14px; }
+  .trust li { font-size: .8rem; }
+}
+.contact > div { min-width: 0; }
+.contact .btn-lg { white-space: normal; text-align: left; max-width: 100%; }
